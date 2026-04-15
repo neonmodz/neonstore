@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeonModZ - Legal Open-Source Apps & Tools</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <h2><span class="neon-text">NeonModZ</span></h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#apps">Apps</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search apps, tools, and more..." />
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Apps -->
+  <section id="apps" class="featured-apps section">
+    <h2 class="section-title">Featured Apps</h2>
+    <div class="apps-grid" id="apps-grid">
+      <!-- App Cards will be inserted here by JS -->
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="categories section">
+    <h2 class="section-title">Categories</h2>
+    <div class="categories-grid">
+      <div class="category-card" data-category="productivity">
+        <i class="fas fa-bolt neon-icon"></i>
+        <h3>Productivity</h3>
+      </div>
+      <div class="category-card" data-category="design">
+        <i class="fas fa-paint-brush neon-icon"></i>
+        <h3>Design</h3>
+      </div>
+      <div class="category-card" data-category="development">
+        <i class="fas fa-code neon-icon"></i>
+        <h3>Development</h3>
+      </div>
+      <div class="category-card" data-category="security">
+        <i class="fas fa-shield-alt neon-icon"></i>
+        <h3>Security</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Uploads -->
+  <section class="latest-uploads section">
+    <h2 class="section-title">Latest Uploads</h2>
+    <div class="apps-grid" id="latest-grid">
+      <!-- Latest apps will be inserted here by JS -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3><span class="neon-text">NeonModZ</span></h3>
+      <p>Legal, open-source, and free tools for everyone.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+      </div>
+      <p class="legal">&copy; 2025 NeonModZ. All rights reserved. </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
